@@ -129,3 +129,18 @@ Por ultimo ejecutar **DEVSTACK**.
 cd devstack
 ./stack.sh
 ```
+# Comprobación del despliegue
+Como ejemplo de escenario para ver que funciona correctamente el deslpliegue se puede comprbar con los siguientes pasos,
+* Acceder a Horizon y DLUX
+	* Horizon: [http://HOST_IP/dashboard](http://HOST_IP/dashboard)
+	* DLUX: [http://HOST_IP:8181/index.html](http://HOST_IP:8181/index.html)
+	> La IP es la configurada en **local.conf** en los parametros ``HOST_IP`` y ``SERVICE_HOST``
+* En Redes, comprobar si están las redes creadas por defecto
+	* net0
+	* net1
+	* net_mgmt
+## Construccion de un escenario demo
+Se puede comprobar el despliegue de la infraestructura mediante un escenario que proporciona como ejemplo el propio componente de Tacker. La documentación esta disponible en [Despliegue de un escenario de VNFs con Tacker](https://docs.openstack.org/tacker/latest/user/nsd_usage_guide.html).
+
+## Topología de la red del escenario desplegado
+![Escenario demo del componente Tacker](https://raw.githubusercontent.com/vquilon/TFM_Openstack_Tacker_OpenDayLight/master/img/topologia_red_escenario_demo.png)
