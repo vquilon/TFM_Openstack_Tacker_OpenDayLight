@@ -1,6 +1,6 @@
 # TFM_Openstack_Tacker_OpenDayLight
 Integration of Openstack and OpenDayLight together with the Tacker component to deploy a cloud computing platform as an IaaS solution
-
+![Integración Openstack - Opendaylight](https://raw.githubusercontent.com/vquilon/TFM_Openstack_Tacker_OpenDayLight/master/img/TFM.png)
 # Preparación del entorno
 ## Requisitos
 Se necesita al menos un ordenador con sistema Linux, como por ejemplo Ubuntu 18.04 Bionic.
