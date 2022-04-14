@@ -3,8 +3,8 @@ Integration of Openstack and OpenDayLight together with the Tacker component to 
 
 ![Integración Openstack - Opendaylight](https://raw.githubusercontent.com/vquilon/TFM_Openstack_Tacker_OpenDayLight/master/img/TFM.png)
 
-# Preparación del entorno
-## Requisitos
+# SetUp Environment
+## Requirements
 Need at least a single node with Linux OS, like an Ubuntu 18.04 Bionic.
 * RAM: at least 16GB.
 * Storage: 50GB.
